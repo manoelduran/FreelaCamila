@@ -23,6 +23,7 @@ const GlobalStyle = createGlobalStyle`
     }
     li, ol, ul, input, span, button, label {
         font-family: 'MetropolisRegular';
+        color: rgb(65, 104, 136);
     }
 `;
 

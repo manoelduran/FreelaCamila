@@ -4,9 +4,13 @@ import {
     InfoContainer,
     Name,
     Position,
-    Text
+    Text,
+    IconsContainer
  } from "./styles";
 import CamilaSvg from '../../../assets/svg/camila.svg';
+import InstagramSvg from '../../../assets/svg/instagram.svg';
+import WhatsappSvg from '../../../assets/svg/whatsapp.svg';
+import { Icon } from "../../atoms/Icon";
 
 
 const Introduction: React.FC = ({ }) => {
@@ -15,6 +19,24 @@ const Introduction: React.FC = ({ }) => {
             <InfoContainer>
             <Name>Dra. Camila Cendon Duran</Name>
             <Position>Reumatologista</Position>
+            <Text>Me siga nas redes sociais:</Text>
+            <IconsContainer>
+                <Icon
+                source={InstagramSvg}
+                alt="Instagram Icon"
+                onClick={() => {}}
+                />
+                <Icon
+                source={WhatsappSvg}
+                alt="Instagram Icon"
+                onClick={() => {}}
+                />
+                <Icon
+                source={InstagramSvg}
+                alt="Instagram Icon"
+                onClick={() => {}}
+                />
+            </IconsContainer>
             </InfoContainer>
             <Picture
             source={CamilaSvg}

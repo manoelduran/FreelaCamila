@@ -18,19 +18,32 @@ padding-top: 50px;
 
 display: flex;
 flex-direction: column;
-align-items: flex-start;
+
 justify-content: center;
 `;
 
 export const Name = styled.h1`
 font-size: 40px;
+align-self: center;
 `;
 
 export const Position = styled.h4`
 margin-top: 20px;
 font-size: 25px;
+align-self: center;
 `;
 
 export const Text = styled.span`
-margin-top: 20px;
+margin-top: 50px;
+font-size: 20px;
+align-self: center;
+`;
+
+export const IconsContainer = styled.div`
+align-self: center;
+margin-top: 30px;
+display: flex;
+a + a {
+    margin-left: 30px;
+}
 `;
