@@ -9,7 +9,8 @@ import {
  } from "./styles";
 import CamilaSvg from '../../../assets/svg/camila.svg';
 import InstagramSvg from '../../../assets/svg/instagram.svg';
-import WhatsappSvg from '../../../assets/svg/whatsapp.svg';
+import WhatsappSvg from '../../../assets/svg/Whatsapp.svg';
+import DoctoraliaSvg from '../../../assets/svg/doctoralia.svg';
 import { Icon } from "../../atoms/Icon";
 
 
@@ -27,13 +28,13 @@ const Introduction: React.FC = ({ }) => {
                 onClick={() => {}}
                 />
                 <Icon
-                source={WhatsappSvg}
-                alt="Instagram Icon"
+                source={DoctoraliaSvg}
+                alt="Doctoralia Icon"
                 onClick={() => {}}
                 />
                 <Icon
-                source={InstagramSvg}
-                alt="Instagram Icon"
+                source={WhatsappSvg}
+                alt="Whatsapp Icon"
                 onClick={() => {}}
                 />
             </IconsContainer>
