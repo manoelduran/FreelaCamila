@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
             href="https://fontlibrary.org//face/metropolis"
             type="text/css"
           />
-           <link rel="shortcut icon"  />
+           <link rel="shortcut icon" href='logo.svg' />
         </Head>
         <body>
           <Main />

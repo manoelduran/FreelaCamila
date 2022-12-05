@@ -1,3 +1,4 @@
+import { About } from "../components/organisms/About";
 import { Header } from "../components/organisms/Header";
 import { Introduction } from "../components/organisms/Introduction";
 import { Container } from "../styles/pages/home";
@@ -11,6 +12,7 @@ export default function Home() {
     <Container >
       <Header />
       <Introduction/>
+      <About/>
     </Container>
   )
 }
