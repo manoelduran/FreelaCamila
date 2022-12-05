@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'MetropolisRegular';
         color: rgb(65, 104, 136);
     }
-    li, ol, ul, input, span, button, label {
+    li, ol, ul, input, span, button, label, p {
         font-family: 'MetropolisRegular';
         color: rgb(65, 104, 136);
     }
