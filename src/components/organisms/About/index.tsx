@@ -9,7 +9,7 @@ import { Description } from "../../atoms/Description";
 const About = () => {
     return (
         <Container>
-            <SectionTitle title="Quem sou eu?" />
+            <SectionTitle title="Quem sou eu ?" />
             <Content>
                 <Picture
                     source={CamilaSvg}

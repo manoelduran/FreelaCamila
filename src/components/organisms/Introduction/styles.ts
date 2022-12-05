@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.section`
 width: 100%;
-height: 350px;
 background: orange;
 display: flex;
 align-items: flex-start;
